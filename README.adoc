@@ -43,6 +43,7 @@ image::./images/tech_arch_aws.PNG[]
 
 image::./images/ci_cd_aws.PNG[]
 
+# Code repo & microservices description
 
 This repo contains an application that consists of microservices. The application uses following services:
 
