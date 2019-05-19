@@ -1,21 +1,21 @@
 # timesheet-management-aws-deploy
 Deploying Microservices on AWS Cloud
 
-=== Problem Statement
+# Problem Statement
 
-# Business Requirements
+=== Business Requirements
 * A new starter business a timesheet management application that will be used by end users for following actions 
 * Users should be able to login to the application
 * Users will upload the timesheet data in excel format
 * Administrators can view the uploaded timesheet in user friendly format
 
-# Technical Requirements
+=== Technical Requirements
 * The application needs to support following technical requirements
 * The application should follow DDD and microservices architecture 
 * The application should use the Netflix stack and should be hosted on AWS
 * The data should be stored in JSON format in the database (DynamoDB)
 
-=== Solution
+# Solution
 
 === Context Map
 
@@ -25,11 +25,14 @@ image::./images/domain_context_map.PNG[]
 
 === Logical Architecture
 
-The following diagram shows the logical architecture of the application.
+The following diagram shows the logical architecture of the application. 
+The microservices in this architecture is layered by purpose (systems, processes (or domain models) and experience). The complexity of the architecture can be managed easily.
 
 image::./images/Timesheet_Management_Logical_Architecture.PNG[]
 
+=== Technical Architecture (AWS)
 
+image::./images/tech_arch_aws.PNG
 
 This repo contains an application that consists of microservices. The application uses following services:
 
