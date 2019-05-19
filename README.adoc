@@ -1,6 +1,15 @@
 # timesheet-management-aws-deploy
 Deploying Microservices on AWS Cloud
 
+
+=== Architecture
+
+The following diagram shows the architecture of the Customers and Orders application.
+
+image::./images/Timesheet_Management_Logical_Architecture.png[]
+
+
+
 This repo contains an application that consists of microservices. The application uses following services:
 
 * auth-service: Microservice for managing authentication & autherization in the application.
