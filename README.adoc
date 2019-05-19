@@ -34,6 +34,16 @@ image::./images/Timesheet_Management_Logical_Architecture.PNG[]
 
 image::./images/tech_arch_aws.PNG[]
 
+=== CI/CD
+
+* The developer will commit code on Github.
+* The CodePipeline will poll source code for changes.
+* The CodeBuild will run unit test, build a docker image, and push the image to ECR.
+* The CodeDeploy will execute a deployment script to deploy application on ECS.
+
+image::./images/ci_cd_aws.PNG[]
+
+
 This repo contains an application that consists of microservices. The application uses following services:
 
 * auth-service: Microservice for managing authentication & autherization in the application.
