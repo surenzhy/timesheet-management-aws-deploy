@@ -1,2 +1,21 @@
 # timesheet-management-aws-deploy
 Deploying Microservices on AWS Cloud
+
+This repo contains an application that consists of microservices. The application uses following services:
+
+* auth-service: Microservice for managing authentication & autherization in the application.
+* visualize-timesheet-service: A microservice that returns timesheet data for users.
+* process-timesheet: A microservice that processes the timesheet uploaded by the users in excel format.
+* user-service: A microservice that performs user level operations like add user, update user, delete user etc.
+* project-service: A microservice that performs project level operations like add project, add user to project etc.
+* discovery-server: Eureka discovery server for discovery of microservices.
+
+Each microservice can be deployed using different AWS Compute options.
+
+# Build and Test Services using Maven
+
+All the microservices code in the following repo:
+
+https://github.com/surenzhy/timesheet-management-micorservices-app
+
+* Clone the repo. 
