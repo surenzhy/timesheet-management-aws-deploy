@@ -23,6 +23,14 @@ The following diagram shows the DDD for the problem statement. This is the conte
 
 image::./images/domain_context_map.PNG[]
 
+
+=== DDD – Microservices decomposition
+
+The following diagram shows the decomposition of microservices derived from the context map of the DDD.
+
+image::./images/ddd_microservice_decomp.PNG[]
+
+
 === Logical Architecture
 
 The following diagram shows the logical architecture of the application. 
