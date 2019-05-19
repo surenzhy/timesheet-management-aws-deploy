@@ -6,7 +6,7 @@ Deploying Microservices on AWS Cloud
 
 The following diagram shows the architecture of the Customers and Orders application.
 
-image::./images/Timesheet_Management_Logical_Architecture.png
+image::./images/Timesheet_Management_Logical_Architecture.PNG[]
 
 
 
