@@ -71,7 +71,10 @@ All the microservices code in the following repo:
 https://github.com/surenzhy/timesheet-management-micorservices-app
 
 ### run discovery-server
-  
+
+* Code : https://github.com/surenzhy/timesheet-management-micorservices-app/tree/master/discovery-server
+
+
   
 ### run auth-service
 
