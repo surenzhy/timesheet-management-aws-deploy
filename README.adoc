@@ -1,5 +1,4 @@
-# timesheet-management-aws-deploy
-Deploying Microservices on AWS Cloud
+Deploying Timesheet management Microservices on AWS Cloud
 
 # Problem Statement
 
