@@ -18,4 +18,22 @@ All the microservices code in the following repo:
 
 https://github.com/surenzhy/timesheet-management-micorservices-app
 
-* Clone the repo. 
+### run discovery-server
+  
+  
+### run auth-service
+
+  
+### run visualize-timesheet-service
+
+
+### run process-timesheet
+
+
+### run user-service
+
+
+### run project-service
+
+
+
